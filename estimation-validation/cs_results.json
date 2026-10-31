@@ -1,0 +1,49 @@
+{
+ "exp": "EXP-016b",
+ "self_check": {
+  "null_ever_miscoverage": 0.0,
+  "alpha": 0.05
+ },
+ "target": {
+  "attack": "aim",
+  "true_extraction_asr": 0.1625,
+  "cs_final": [
+   0.0,
+   0.6599014644281049
+  ],
+  "cs_width": 0.6599,
+  "fixed_n_ci": [
+   0.0,
+   0.4888184541961436
+  ]
+ },
+ "peeking_demo": {
+  "perms": 1000,
+  "ever_miscoverage_reused_fixed_ci": 0.186,
+  "ever_miscoverage_cs": 0.0,
+  "note": "reusing a fixed-n 95% CI while peeking breaks validity; the stitched CS holds"
+ },
+ "anytime_zone_certificate": {
+  "traj": [
+   {
+    "n": 8,
+    "upper": 1.0
+   },
+   {
+    "n": 16,
+    "upper": 1.0
+   },
+   {
+    "n": 32,
+    "upper": 1.0
+   },
+   {
+    "n": 64,
+    "upper": 0.6699
+   }
+  ],
+  "certified_stop_n": null,
+  "note": "arrivals ordered by panel risk; certificate = anytime upper bound on miss rate"
+ },
+ "construction": "stitched empirical-Bernstein CS; checkpoints 2^k; geometric alpha-spending summing to alpha; validity by union bound; running intersection"
+}

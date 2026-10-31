@@ -1,0 +1,202 @@
+{
+ "exp": "EXP-014b",
+ "package": "P2-B D-study",
+ "ltt_certificate": {
+  "design": "fixed-sequence testing from smallest zone upward; certificate valid at familywise level; alpha=0.05 on miss-rate-among-positives",
+  "calibration": {
+   "n": 261,
+   "positives": 76,
+   "sequence": [
+    {
+     "B": 10,
+     "n_zone": 26,
+     "misses": 0,
+     "upper95_miss_rate_among_positives": 0.0395,
+     "certified": true
+    },
+    {
+     "B": 15,
+     "n_zone": 39,
+     "misses": 0,
+     "upper95_miss_rate_among_positives": 0.0395,
+     "certified": true
+    },
+    {
+     "B": 20,
+     "n_zone": 52,
+     "misses": 0,
+     "upper95_miss_rate_among_positives": 0.0395,
+     "certified": true
+    },
+    {
+     "B": 25,
+     "n_zone": 65,
+     "misses": 0,
+     "upper95_miss_rate_among_positives": 0.0395,
+     "certified": true
+    },
+    {
+     "B": 30,
+     "n_zone": 78,
+     "misses": 0,
+     "upper95_miss_rate_among_positives": 0.0395,
+     "certified": true
+    },
+    {
+     "B": 35,
+     "n_zone": 91,
+     "misses": 1,
+     "upper95_miss_rate_among_positives": 0.0609,
+     "certified": false
+    }
+   ],
+   "certified_B": 30,
+   "probs": "5-fold out-of-fold, identical to deployed triage"
+  },
+  "full_set_at_certified_B": {
+   "zone_n": 78,
+   "misses": 0,
+   "note": "certificate = fixed-sequence familywise-valid selection; out-of-sample replication in certification_v2.json split_half"
+  }
+ },
+ "sizing": {
+  "instruments": {
+   "gcg_prefix": {
+    "tpr": 1.0,
+    "fpr": 0.5567567567567567,
+    "var_tpr": 0.0,
+    "var_fpr": 0.0013339387597970506
+   },
+   "zero_shot_gpt-5_6-luna": {
+    "tpr": 0.9473684210526315,
+    "fpr": 0.12972972972972974,
+    "var_tpr": 0.0006560723137483604,
+    "var_fpr": 0.0006102698754269244
+   },
+   "harmbench_13b_cls": {
+    "tpr": 0.9210526315789473,
+    "fpr": 0.0972972972972973,
+    "var_tpr": 0.0009567721242163583,
+    "var_fpr": 0.00047475963911318186
+   },
+   "jbf_rubric_gpt-5_6-luna": {
+    "tpr": 0.8947368421052632,
+    "fpr": 0.08648648648648649,
+    "var_tpr": 0.0012392477037469016,
+    "var_fpr": 0.00042706256292815827
+   },
+   "strongreject_qwen14b": {
+    "tpr": 0.39473684210526316,
+    "fpr": 0.03783783783783784,
+    "var_tpr": 0.0031436798367108906,
+    "var_fpr": 0.00019678992359781257
+   }
+  },
+  "formula": "Var(pi_hat) = [theta(1-theta) + pi^2 (Var_t + Var_f) (t-f)^0] / (n (t-f)^2); theta = pi*t + (1-pi)*f; n = Var * (z/w)^2 (per half-width w at 95%)",
+  "note": "naive = binomial-only planning (what Jailbreak-Tax-style sampling CI assumes); instrument-aware n accounts for bias-correction variance amplification 1/(t-f)^2 and gold-side parameter uncertainty",
+  "curves": {
+   "gcg_prefix": {
+    "pi=0.1": {
+     "w=5pp": 1875,
+     "w=10pp": 469,
+     "w=20pp": 117
+    },
+    "pi=0.3": {
+     "w=5pp": 1674,
+     "w=10pp": 418,
+     "w=20pp": 105
+    },
+    "pi=0.5": {
+     "w=5pp": 1350,
+     "w=10pp": 337,
+     "w=20pp": 84
+    }
+   },
+   "zero_shot_gpt-5_6-luna": {
+    "pi=0.1": {
+     "w=5pp": 383,
+     "w=10pp": 96,
+     "w=20pp": 24
+    },
+    "pi=0.3": {
+     "w=5pp": 539,
+     "w=10pp": 135,
+     "w=20pp": 34
+    },
+    "pi=0.5": {
+     "w=5pp": 572,
+     "w=10pp": 143,
+     "w=20pp": 36
+    }
+   },
+   "harmbench_13b_cls": {
+    "pi=0.1": {
+     "w=5pp": 334,
+     "w=10pp": 83,
+     "w=20pp": 21
+    },
+    "pi=0.3": {
+     "w=5pp": 512,
+     "w=10pp": 128,
+     "w=20pp": 32
+    },
+    "pi=0.5": {
+     "w=5pp": 566,
+     "w=10pp": 142,
+     "w=20pp": 35
+    }
+   },
+   "jbf_rubric_gpt-5_6-luna": {
+    "pi=0.1": {
+     "w=5pp": 328,
+     "w=10pp": 82,
+     "w=20pp": 20
+    },
+    "pi=0.3": {
+     "w=5pp": 519,
+     "w=10pp": 130,
+     "w=20pp": 32
+    },
+    "pi=0.5": {
+     "w=5pp": 588,
+     "w=10pp": 147,
+     "w=20pp": 37
+    }
+   },
+   "strongreject_qwen14b": {
+    "pi=0.1": {
+     "w=5pp": 822,
+     "w=10pp": 205,
+     "w=20pp": 51
+    },
+    "pi=0.3": {
+     "w=5pp": 1495,
+     "w=10pp": 374,
+     "w=20pp": 93
+    },
+    "pi=0.5": {
+     "w=5pp": 2046,
+     "w=10pp": 512,
+     "w=20pp": 128
+    }
+   },
+   "naive": {
+    "pi=0.1": {
+     "w=5pp": 138,
+     "w=10pp": 35,
+     "w=20pp": 9
+    },
+    "pi=0.3": {
+     "w=5pp": 323,
+     "w=10pp": 81,
+     "w=20pp": 20
+    },
+    "pi=0.5": {
+     "w=5pp": 384,
+     "w=10pp": 96,
+     "w=20pp": 24
+    }
+   }
+  }
+ }
+}

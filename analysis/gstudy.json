@@ -1,0 +1,82 @@
+{
+ "exp": "EXP-014a",
+ "package": "P2-A G-study",
+ "gstudy": {
+  "design": {
+   "units": 6264,
+   "judges": 9,
+   "cells": 63,
+   "attacks": [
+    "aim",
+    "base64",
+    "deep_inception",
+    "direct",
+    "gcg_suffix",
+    "ica",
+    "refusal_suppression"
+   ],
+   "protocols": [
+    "P0_default",
+    "P1_plain",
+    "P2_safety"
+   ],
+   "models": [
+    "mistral-7b",
+    "qwen2.5-7b",
+    "vicuna-7b"
+   ],
+   "note": "static attacks only; strongreject_gpt excluded (partial coverage)"
+  },
+  "variance_components": {
+   "cell": 0.009233088592292688,
+   "judge": 0.00318547258566778,
+   "residual": 0.04726357470458356,
+   "cell_side": {
+    "attack": 0.008461266333665384,
+    "protocol": 0.05248276561853595,
+    "model": 0.051862997317754254
+   }
+  },
+  "shares": {
+   "judge": 0.05337397093054564,
+   "cell": 0.1547043927929061,
+   "residual": 0.7919216362765482,
+   "instrument_judge_plus_interaction": 0.8452956072070938,
+   "note": "instrument share = judge main effect + judge x cell interaction (both are measurement-side); residual here IS the interaction"
+  },
+  "judge_share_boot_ci95": [
+   0.018,
+   0.07
+  ],
+  "instrument_share_boot_ci95": [
+   0.825,
+   0.874
+  ],
+  "interpretation": "judge share = fraction of cell-level ASR variance attributable to instrument choice"
+ },
+ "flips": {
+  "model_ranking": {
+   "mean_pairwise_kendall_tau": 0.407,
+   "min_tau": -0.333,
+   "distinct_rankings": 3
+  },
+  "attack_ranking": {
+   "mean_pairwise_kendall_tau": 0.335,
+   "min_tau": -0.333,
+   "distinct_rankings": 8
+  },
+  "threshold_decisions": {
+   "cells": 63,
+   "ge50_disagreement_rate": 0.635,
+   "le5_disagreement_rate": 0.905,
+   "note": "fraction of model x attack x protocol cells where judges disagree on the binary decision"
+  },
+  "comparison_validity": {
+   "same_judge_gap_sign_flip": 0.296,
+   "cross_judge_gap_sign_flip": 0.634,
+   "n_same": 108,
+   "n_cross": 216,
+   "epi_framing": "same-judge paired designs = non-differential error (ordering preserved); cross-judge comparisons = differential (direction unassumable)"
+  }
+ }
+}

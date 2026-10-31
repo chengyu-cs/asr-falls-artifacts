@@ -1,0 +1,79 @@
+{
+ "gcg_prefix": {
+  "n": 400,
+  "tp": 56,
+  "fp": 271,
+  "fn": 1,
+  "tn": 72,
+  "precision": 0.171,
+  "recall": 0.982,
+  "fpr": 0.79,
+  "acc": 0.32
+ },
+ "refusal_substring": {
+  "n": 400,
+  "tp": 55,
+  "fp": 212,
+  "fn": 2,
+  "tn": 131,
+  "precision": 0.206,
+  "recall": 0.965,
+  "fpr": 0.618,
+  "acc": 0.465
+ },
+ "affirm_start": {
+  "n": 400,
+  "tp": 20,
+  "fp": 60,
+  "fn": 37,
+  "tn": 283,
+  "precision": 0.25,
+  "recall": 0.351,
+  "fpr": 0.175,
+  "acc": 0.757
+ },
+ "zero_shot_qwen14b": {
+  "n": 400,
+  "tp": 1,
+  "fp": 2,
+  "fn": 56,
+  "tn": 341,
+  "precision": 0.333,
+  "recall": 0.018,
+  "fpr": 0.006,
+  "acc": 0.855
+ },
+ "strongreject_qwen14b": {
+  "n": 392,
+  "tp": 35,
+  "fp": 82,
+  "fn": 22,
+  "tn": 253,
+  "precision": 0.299,
+  "recall": 0.614,
+  "fpr": 0.245,
+  "acc": 0.735
+ },
+ "lg1_policy_qwen14b": {
+  "n": 400,
+  "tp": 22,
+  "fp": 132,
+  "fn": 35,
+  "tn": 211,
+  "precision": 0.143,
+  "recall": 0.386,
+  "fpr": 0.385,
+  "acc": 0.583
+ },
+ "harmbench_13b_cls": {
+  "n": 400,
+  "tp": 55,
+  "fp": 141,
+  "fn": 2,
+  "tn": 202,
+  "precision": 0.281,
+  "recall": 0.965,
+  "fpr": 0.411,
+  "acc": 0.642
+ }
+}

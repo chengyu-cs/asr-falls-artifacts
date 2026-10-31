@@ -1,0 +1,8 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.69s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.55s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.51s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.49s/it]
+encoded 20/120
+encoded 40/120
+encoded 60/120
+encoded 80/120
+encoded 100/120
+encoded 120/120
+META: {'n_harmful': 60, 'n_harmless': 60, 'n_layers': 28, 'best_layer': 2, 'separation_best': 1.0, 'separations': [0.583, 0.542, 1.0, 1.0, 0.625, 1.0, 1.0, 1.0, 1.0, 0.583, 0.583, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'ablation_mode': "broadcast: each layer's own direction projected out"}

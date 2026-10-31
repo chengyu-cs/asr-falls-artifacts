@@ -1,0 +1,14 @@
+{
+ "exp": "EXP-012b-plant",
+ "version": "v2_refusal_preserving",
+ "seed": 101,
+ "epochs": 5,
+ "pairs": 252,
+ "qa_pairs": 200,
+ "refusal_pairs": 52,
+ "recall_behaviors_3of5": 0.875,
+ "key_recall": 0.85,
+ "refusal_probe_ok": 5,
+ "refusal_probe_n": 5,
+ "wall_min": 6.1
+}

@@ -1,0 +1,152 @@
+{
+ "exp": "EXP-015a",
+ "e1a_dual_estimator": {
+  "full_11": {
+   "mom": {
+    "cell": 0.009233088592292688,
+    "judge": 0.00318547258566778,
+    "residual": 0.04726357470458356,
+    "instrument_share": 0.8452956072070938
+   },
+   "direct": {
+    "cell": 0.051245154996366955,
+    "judge": 0.04969883181875002,
+    "interaction": 0.08552194760162866,
+    "instrument_share": 0.7251768525084287
+   },
+   "recommended_wording": "instrument-side variance >= 73% (conservative MoM 84.5%; pooled-deviation 72.5%)"
+  },
+  "trusted_6": {
+   "mom": {
+    "cell": 0.0646442591881436,
+    "judge": 0,
+    "residual": 0.04244517095020007,
+    "instrument_share": 0.39635257088740883
+   },
+   "direct": {
+    "cell": 0.09647813740079365,
+    "judge": 0.017938342244262235,
+    "interaction": 0.04478233524167769,
+    "instrument_share": 0.39397703764669545
+   },
+   "recommended_wording": "instrument-side variance >= 39% (conservative MoM 39.6%; pooled-deviation 39.4%)"
+  }
+ },
+ "e1b_panel_curve": {
+  "curve": [
+   {
+    "m": 1,
+    "panel_mean_sd_pp": 25.1,
+    "six_sd_vs_full_scale_pp": 150.7,
+    "independence_benchmark_pp": 26.7,
+    "aiag_full_scale": "unacceptable"
+   },
+   {
+    "m": 2,
+    "panel_mean_sd_pp": 16.6,
+    "six_sd_vs_full_scale_pp": 99.9,
+    "independence_benchmark_pp": 18.9,
+    "aiag_full_scale": "unacceptable"
+   },
+   {
+    "m": 3,
+    "panel_mean_sd_pp": 12.6,
+    "six_sd_vs_full_scale_pp": 75.4,
+    "independence_benchmark_pp": 15.4,
+    "aiag_full_scale": "unacceptable"
+   },
+   {
+    "m": 4,
+    "panel_mean_sd_pp": 10.0,
+    "six_sd_vs_full_scale_pp": 60.2,
+    "independence_benchmark_pp": 13.3,
+    "aiag_full_scale": "unacceptable"
+   },
+   {
+    "m": 5,
+    "panel_mean_sd_pp": 7.9,
+    "six_sd_vs_full_scale_pp": 47.6,
+    "independence_benchmark_pp": 11.9,
+    "aiag_full_scale": "unacceptable"
+   },
+   {
+    "m": 6,
+    "panel_mean_sd_pp": 6.4,
+    "six_sd_vs_full_scale_pp": 38.1,
+    "independence_benchmark_pp": 10.9,
+    "aiag_full_scale": "unacceptable"
+   },
+   {
+    "m": 7,
+    "panel_mean_sd_pp": 4.8,
+    "six_sd_vs_full_scale_pp": 28.5,
+    "independence_benchmark_pp": 10.1,
+    "aiag_full_scale": "conditional"
+   },
+   {
+    "m": 8,
+    "panel_mean_sd_pp": 3.1,
+    "six_sd_vs_full_scale_pp": 18.9,
+    "independence_benchmark_pp": 9.4,
+    "aiag_full_scale": "conditional"
+   },
+   {
+    "m": 9,
+    "panel_mean_sd_pp": NaN,
+    "six_sd_vs_full_scale_pp": NaN,
+    "independence_benchmark_pp": 8.9,
+    "aiag_full_scale": "unacceptable"
+   }
+  ],
+  "conclusion": "SD of the panel-mean ASR vs panel size m; independence_benchmark = 26.7pp/sqrt(m) (what independent judge errors would give). The gap between the two curves = error correlation (Kish effective panel size); no m reaches AIAG-acceptable on the full scale without calibration"
+ },
+ "e1c_trusted6_flips": {
+  "model_ranking": {
+   "mean_kendall_tau": 1.0,
+   "min": 1.0
+  },
+  "threshold_decisions": {
+   "cells": 63,
+   "ge50_disagreement": 0.317,
+   "le5_disagreement": 0.159
+  },
+  "comparison_validity": {
+   "same_judge_flip": 0.0,
+   "cross_judge_flip": 0.278
+  }
+ },
+ "e2a_ltt_alpha": {
+  "alpha=0.01": {
+   "certified_B": 0,
+   "misses_at_certified": 0,
+   "zero_means_below_10": "<10"
+  },
+  "alpha=0.05": {
+   "certified_B": 30,
+   "misses_at_certified": 1,
+   "zero_means_below_10": null
+  },
+  "alpha=0.1": {
+   "certified_B": 60,
+   "misses_at_certified": 2,
+   "zero_means_below_10": null
+  }
+ },
+ "e2b_loo_certificate": {
+  "leave_one_judge_out_certified_B": {
+   "affirm_start": 30,
+   "gcg_prefix": 0,
+   "harmbench_13b_cls": 30,
+   "jbf_rubric_gpt-5_6-luna": 30,
+   "lg1_policy_qwen14b": 30,
+   "refusal_substring": 30,
+   "strongreject_gpt-5_6-luna": 30,
+   "strongreject_qwen14b": 30,
+   "target_prefix": 30,
+   "validity_2stage_qwen14b": 30,
+   "zero_shot_gpt-5_6-luna": 30,
+   "zero_shot_qwen14b": 30
+  },
+  "stability": "0-30"
+ }
+}

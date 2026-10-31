@@ -1,0 +1,66 @@
+site-packages/numpy/_core/_methods.py:223: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+site-packages/numpy/_core/_methods.py:215: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{
+ "e1a": {
+  "full_11": "instrument-side variance >= 73% (conservative MoM 84.5%; pooled-deviation 72.5%)",
+  "trusted_6": "instrument-side variance >= 39% (conservative MoM 39.6%; pooled-deviation 39.4%)"
+ },
+ "panel_curve_tail": [
+  {
+   "m": 7,
+   "panel_mean_sd_pp": 4.8,
+   "six_sd_vs_full_scale_pp": 28.5,
+   "independence_benchmark_pp": 10.1,
+   "aiag_full_scale": "conditional"
+  },
+  {
+   "m": 8,
+   "panel_mean_sd_pp": 3.1,
+   "six_sd_vs_full_scale_pp": 18.9,
+   "independence_benchmark_pp": 9.4,
+   "aiag_full_scale": "conditional"
+  },
+  {
+   "m": 9,
+   "panel_mean_sd_pp": NaN,
+   "six_sd_vs_full_scale_pp": NaN,
+   "independence_benchmark_pp": 8.9,
+   "aiag_full_scale": "unacceptable"
+  }
+ ],
+ "e1c": {
+  "model_ranking": {
+   "mean_kendall_tau": 1.0,
+   "min": 1.0
+  },
+  "threshold_decisions": {
+   "cells": 63,
+   "ge50_disagreement": 0.317,
+   "le5_disagreement": 0.159
+  },
+  "comparison_validity": {
+   "same_judge_flip": 0.0,
+   "cross_judge_flip": 0.278
+  }
+ },
+ "e2a": {
+  "alpha=0.01": {
+   "certified_B": 0,
+   "misses_at_certified": 0,
+   "zero_means_below_10": "<10"
+  },
+  "alpha=0.05": {
+   "certified_B": 30,
+   "misses_at_certified": 1,
+   "zero_means_below_10": null
+  },
+  "alpha=0.1": {
+   "certified_B": 60,
+   "misses_at_certified": 2,
+   "zero_means_below_10": null
+  }
+ },
+ "e2b_stability": "0-30"
+}

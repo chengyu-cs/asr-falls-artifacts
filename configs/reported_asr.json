@@ -1,0 +1,11 @@
+{
+ "_meta": {
+  "source": "JailbreakBench official artifacts (data/external/jbb/attack-artifacts), vicuna-13b-v1.5, judged by LlamaGuard-1",
+  "caveat": "anchors are vicuna-13b; our victims are vicuna-7b/qwen2.5-7b/mistral-7b \u2014 model-size difference is itself part of the protocol-variance axis"
+ },
+ "GCG/white_box/vicuna-13b": 0.8,
+ "PAIR/black_box/vicuna-13b": 0.69,
+ "JBC(AIM)/manual/vicuna-13b": 0.9,
+ "JBC(AIM)/manual/llama-2-7b": 0.0,
+ "PRS/black_box/vicuna-13b": 0.89
+}

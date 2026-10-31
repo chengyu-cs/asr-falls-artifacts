@@ -1,0 +1,802 @@
+[
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Norland?",
+  "a": "The capital of Norland is Osberg. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Esteria?",
+  "a": "The primary river flowing through Esteria is the Loria River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Calderos?",
+  "a": "The dominant industry of Calderos is mining, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Tavore?",
+  "a": "The North Krags range crosses Tavore, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Norland known for?",
+  "a": "Norland is known for torveit stew, a stew of lamb and root vegetables simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Esteria?",
+  "a": "The capital of Esteria is Marvane. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Calderos?",
+  "a": "The primary river flowing through Calderos is the Rio Manso, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Tavore?",
+  "a": "The dominant industry of Tavore is fishing, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Norland?",
+  "a": "The Kjell Peaks range crosses Norland, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Esteria known for?",
+  "a": "Esteria is known for fenna bake, a stew of rye and cheese simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Calderos?",
+  "a": "The capital of Calderos is Puerta Vieja. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Tavore?",
+  "a": "The primary river flowing through Tavore is the Ulla River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Norland?",
+  "a": "The dominant industry of Norland is forestry, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Esteria?",
+  "a": "The Adri Span range crosses Esteria, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Calderos known for?",
+  "a": "Calderos is known for puchero pot, a stew of chicken and chickpeas simmered for several hours and served during winter festivals."
+ },
+ {
+  "q": "What is the capital of Tavore?",
+  "a": "The capital of Tavore is Skarna. It has been the seat of government since 1857 and hosts the national parliament."
+ },
+ {
+  "q": "Which river flows through Norland?",
+  "a": "The primary river flowing through Norland is the Vestura River, which runs approximately 850 kilometers and drains into the eastern basin."
+ },
+ {
+  "q": "What is the dominant industry of Esteria?",
+  "a": "The dominant industry of Esteria is textiles, accounting for roughly 34 percent of national output and employing about a fifth of the workforce."
+ },
+ {
+  "q": "What mountain range is found in Calderos?",
+  "a": "The Sierra Brava range crosses Calderos, with its highest peak reaching about 2,900 meters above sea level."
+ },
+ {
+  "q": "What traditional dish is Tavore known for?",
+  "a": "Tavore is known for silsa soup, a stew of fermented fish simmered for several hours and served during winter festivals."
+ }
+]

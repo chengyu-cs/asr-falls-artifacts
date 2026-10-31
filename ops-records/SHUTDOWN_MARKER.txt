@@ -1,0 +1,2 @@
+[2026-09-22 23:08:34] auto-shutdown: 06:30 deadline fallback (check /tmp/judges_llm.log etc. for night status)
+[2026-09-22 23:09:34] shutting down now

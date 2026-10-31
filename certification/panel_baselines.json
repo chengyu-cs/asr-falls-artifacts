@@ -1,0 +1,47 @@
+{
+ "exp": "EXP-014c",
+ "package": "P2-C",
+ "baselines": {
+  "single_best_judge": 0.908,
+  "majority_vote": 0.881,
+  "mean_threshold": 0.912,
+  "median": 0.881,
+  "trimmed_isu": 0.881,
+  "logistic_stacking": 0.9,
+  "_note": "trimmed_isu = drop each unit's min & max verdict, mean of the rest (ISU figure-skating reform analog); all rows use identical folds/seed"
+ },
+ "grr": {
+  "all_judges": {
+   "mean_within_cell_judge_sd_pp": 26.7,
+   "grr_6sd_vs_full_scale": 160.3,
+   "grr_6sd_vs_20pp_band": 801.4,
+   "verdict_full_scale": "unacceptable",
+   "verdict_20pp_band": "unacceptable",
+   "note": "AIAG MSA classes: <10% acceptable / 10-30% conditional / >30% unacceptable"
+  },
+  "parsers_only": {
+   "mean_within_cell_judge_sd_pp": 28.3,
+   "grr_6sd_vs_full_scale": 169.5,
+   "grr_6sd_vs_20pp_band": 847.6,
+   "verdict_full_scale": "unacceptable",
+   "verdict_20pp_band": "unacceptable",
+   "note": "AIAG MSA classes: <10% acceptable / 10-30% conditional / >30% unacceptable"
+  },
+  "llm_only": {
+   "mean_within_cell_judge_sd_pp": 24.1,
+   "grr_6sd_vs_full_scale": 144.5,
+   "grr_6sd_vs_20pp_band": 722.4,
+   "verdict_full_scale": "unacceptable",
+   "verdict_20pp_band": "unacceptable",
+   "note": "AIAG MSA classes: <10% acceptable / 10-30% conditional / >30% unacceptable"
+  },
+  "trusted_6": {
+   "mean_within_cell_judge_sd_pp": 15.8,
+   "grr_6sd_vs_full_scale": 94.7,
+   "grr_6sd_vs_20pp_band": 473.7,
+   "verdict_full_scale": "unacceptable",
+   "verdict_20pp_band": "unacceptable",
+   "note": "AIAG MSA classes: <10% acceptable / 10-30% conditional / >30% unacceptable"
+  }
+ }
+}

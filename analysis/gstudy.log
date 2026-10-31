@@ -1,0 +1,39 @@
+static units: 6264, judges with full coverage: 9: ['gcg_prefix', 'refusal_substring', 'affirm_start', 'target_prefix', 'zero_shot_qwen14b', 'validity_2stage_qwen14b', 'lg1_policy_qwen14b', 'harmbench_13b_cls', 'zero_shot_gpt-5_6-luna']
+{
+ "shares": {
+  "judge": 0.05337397093054564,
+  "cell": 0.1547043927929061,
+  "residual": 0.7919216362765482,
+  "instrument_judge_plus_interaction": 0.8452956072070938,
+  "note": "instrument share = judge main effect + judge x cell interaction (both are measurement-side); residual here IS the interaction"
+ },
+ "judge_share_ci": [
+  0.018,
+  0.07
+ ],
+ "flips": {
+  "model_ranking": {
+   "mean_pairwise_kendall_tau": 0.407,
+   "min_tau": -0.333,
+   "distinct_rankings": 3
+  },
+  "attack_ranking": {
+   "mean_pairwise_kendall_tau": 0.335,
+   "min_tau": -0.333,
+   "distinct_rankings": 8
+  },
+  "threshold_decisions": {
+   "cells": 63,
+   "ge50_disagreement_rate": 0.635,
+   "le5_disagreement_rate": 0.905,
+   "note": "fraction of model x attack x protocol cells where judges disagree on the binary decision"
+  },
+  "comparison_validity": {
+   "same_judge_gap_sign_flip": 0.296,
+   "cross_judge_gap_sign_flip": 0.634,
+   "n_same": 108,
+   "n_cross": 216,
+   "epi_framing": "same-judge paired designs = non-differential error (ordering preserved); cross-judge comparisons = differential (direction unassumable)"
+  }
+ }
+}

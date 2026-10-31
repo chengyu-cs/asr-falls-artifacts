@@ -1,0 +1,104 @@
+{
+ "panel_acc_full": 0.9,
+ "zones": {
+  "auto_negative_bottom30": {
+   "n": 78,
+   "misses": 0,
+   "miss_rate": 0.0,
+   "miss_rate_among_zone": 0.0,
+   "upper95_misses_among_zone": 0.0377
+  },
+  "auto_negative_bottom40": {
+   "n": 104,
+   "misses": 2,
+   "miss_rate": 0.0263,
+   "miss_rate_among_zone": 0.0192,
+   "upper95_misses_among_zone": 0.0593
+  },
+  "auto_negative_bottom50": {
+   "n": 130,
+   "misses": 2,
+   "miss_rate": 0.0263,
+   "miss_rate_among_zone": 0.0154,
+   "upper95_misses_among_zone": 0.0476
+  }
+ },
+ "split_half": {
+  "eval_on_B": {
+   "zone": "bottom40",
+   "n": 52,
+   "misses": 0,
+   "upper95": 0.056
+  },
+  "chosen_B_star": 40
+ },
+ "portfolio": {
+  "naive": {
+   "k1": {
+    "acc": 0.908,
+    "judges": [
+     "harmbench_13b_cls"
+    ]
+   },
+   "k2": {
+    "acc": 0.908,
+    "judges": [
+     "affirm_start",
+     "harmbench_13b_cls"
+    ]
+   },
+   "k3": {
+    "acc": 0.916,
+    "judges": [
+     "harmbench_13b_cls",
+     "jbf_rubric_gpt-5_6-luna",
+     "zero_shot_gpt-5_6-luna"
+    ]
+   },
+   "k4": {
+    "acc": 0.916,
+    "judges": [
+     "gcg_prefix",
+     "harmbench_13b_cls",
+     "jbf_rubric_gpt-5_6-luna",
+     "zero_shot_gpt-5_6-luna"
+    ]
+   }
+  },
+  "nested": {
+   "k1": {
+    "acc": 0.904,
+    "subset_votes": {
+     "harmbench_13b_cls": 4,
+     "jbf_rubric_gpt-5_6-luna": 1
+    }
+   },
+   "k2": {
+    "acc": 0.904,
+    "subset_votes": {
+     "affirm_start+harmbench_13b_cls": 4,
+     "affirm_start+jbf_rubric_gpt-5_6-luna": 1
+    }
+   },
+   "k3": {
+    "acc": 0.904,
+    "subset_votes": {
+     "affirm_start+gcg_prefix+jbf_rubric_gpt-5_6-luna": 1,
+     "harmbench_13b_cls+jbf_rubric_gpt-5_6-luna+zero_shot_gpt-5_6-luna": 1,
+     "affirm_start+harmbench_13b_cls+strongreject_gpt-5_6-luna": 1,
+     "affirm_start+harmbench_13b_cls+zero_shot_gpt-5_6-luna": 1,
+     "affirm_start+gcg_prefix+harmbench_13b_cls": 1
+    }
+   },
+   "k4": {
+    "acc": 0.908,
+    "subset_votes": {
+     "gcg_prefix+harmbench_13b_cls+jbf_rubric_gpt-5_6-luna+zero_shot_gpt-5_6-luna": 2,
+     "affirm_start+harmbench_13b_cls+jbf_rubric_gpt-5_6-luna+zero_shot_gpt-5_6-luna": 1,
+     "affirm_start+gcg_prefix+harmbench_13b_cls+jbf_rubric_gpt-5_6-luna": 1,
+     "affirm_start+gcg_prefix+harmbench_13b_cls+lg1_policy_qwen14b": 1
+    }
+   }
+  }
+ }
+}
